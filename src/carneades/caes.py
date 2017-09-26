@@ -455,8 +455,9 @@ class ArgumentSet(object):
             ['circle' if x is None else 'rect' for x in g.vs['arg']]
         plot_style['margin'] = 40
         plot_style['layout'] = layout
-        plot(g, **plot_style)
-
+##      plot(g, **plot_style)
+##
+##      plotting disabled
 
 
     def write_to_graphviz(self, fname=None):
